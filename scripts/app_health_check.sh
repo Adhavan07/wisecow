@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL="http://65.2.34.82"
+URL="http://13.233.140.247"
 LOG_FILE="../logs/app_health.log"
 
 STATUS=$(curl -o /dev/null -s -w "%{http_code}" $URL)
