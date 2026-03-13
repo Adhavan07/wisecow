@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: wisecow
+  namespace: wisecow
   labels:
     app: wisecow
 spec:
@@ -16,6 +17,6 @@ spec:
     spec:
       containers:
       - name: wisecow
-        image: ghcr.io/adhavan07/wisecow:latest            ##imgtag
+        image: nikkaman07/wisecow:latest
         ports:
         - containerPort: 4499
