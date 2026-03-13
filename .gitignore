@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Terraform lock optional
+.terraform.lock.hcl
+
+# Private keys
+*.pem
+*.key
+
+# OS files
+.DS_Store
